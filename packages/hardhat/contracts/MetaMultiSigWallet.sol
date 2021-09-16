@@ -2,7 +2,7 @@
 
 //  Off-chain signature gathering multisig that streams funds - @austingriffith
 //
-// started from 🏗 scaffold-eth - meta-multi-sig-wallet example https://github.com/austintgriffith/scaffold-eth/tree/meta-multi-sig
+// started from enepti-contracts - meta-multi-sig-wallet example https://github.com/austintgriffith/enepti-contracts/tree/meta-multi-sig
 //    (off-chain signature based multi-sig)
 //  added a very simple streaming mechanism where `onlySelf` can open a withdraw-based stream
 //

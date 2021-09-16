@@ -1,5 +1,5 @@
 
-# 🏗 scaffold-eth - Meta Multi Signature Wallet
+# Meta Multi Signature Wallet
 
 > an off-chain signature based multi sig wallet
 
@@ -12,11 +12,10 @@ required: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://clas
 
 
 ```bash
-git clone https://github.com/austintgriffith/scaffold-eth.git meta-multi-sig
+git clone https://github.com/enepti/meta-multi-sig.git meta-multi-sig
 
 cd meta-multi-sig
 
-git checkout meta-multi-sig
 ```
 
 ```bash
@@ -34,7 +33,7 @@ yarn start
 > in a second terminal window:
 
 ```bash
-cd scaffold-eth
+
 yarn chain
 
 ```

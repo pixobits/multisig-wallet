@@ -5,9 +5,9 @@ import { PageHeader } from "antd";
 
 export default function Header() {
   return (
-    <a href="https://github.com/austintgriffith/scaffold-eth/tree/meta-multi-sig" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/enepti/multisig-wallet" target="_blank" rel="noopener noreferrer">
       <PageHeader
-        title="🏗 scaffold-eth"
+        title="Multisig Wallet"
         subTitle="meta-multi-sig example"
         style={{ cursor: "pointer" }}
       />

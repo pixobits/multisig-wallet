@@ -49,14 +49,14 @@ const main = async () => {
 
   /*
   //If you want to link a library into your contract:
-  // reference: https://github.com/austintgriffith/scaffold-eth/blob/using-libraries-example/packages/hardhat/scripts/deploy.js#L19
+  // reference: https://github.com/austintgriffith/enepti-contracts/blob/using-libraries-example/packages/hardhat/scripts/deploy.js#L19
   const yourContract = await deploy("YourContract", [], {}, {
    LibraryName: **LibraryAddress**
   });
   */
 
 
-  //If you want to verify your contract on tenderly.co (see setup details in the scaffold-eth README!)
+  //If you want to verify your contract on tenderly.co (see setup details in the enepti-contracts README!)
   /*
   await tenderlyVerify(
     {contractName: "YourContract",

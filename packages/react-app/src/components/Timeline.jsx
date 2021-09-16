@@ -5,7 +5,7 @@ import { SendOutlined, DownloadOutlined, EditOutlined } from "@ant-design/icons"
 
 const { Text } = Typography;
 
-// displays a timeline for scaffold-eth usage
+// displays a timeline for usage
 
 export default function TimelineDisplay(props) {
   return (
@@ -13,7 +13,7 @@ export default function TimelineDisplay(props) {
       <Timeline.Item dot="💾">
         <Text delete>
           Clone and Install from the{" "}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/austintgriffith/scaffold-eth">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/enepti/multisig-wallet">
             github repo
           </a>
         </Text>
@@ -84,16 +84,6 @@ export default function TimelineDisplay(props) {
         <Text>
           Test your contract with <Text code>buidler/test/myTest.js</Text> then:
           <Text strong>yarn run test</Text>
-        </Text>
-      </Timeline.Item>
-
-      <Timeline.Item dot="🚀">
-        <Text>
-          Build something awesome with 🏗 <a href="https://github.com/austintgriffith/scaffold-eth">scaffold-eth</a> and{" "}
-          <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/austingriffith">
-            @ me
-          </a>
-          !
         </Text>
       </Timeline.Item>
 

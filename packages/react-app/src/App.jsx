@@ -18,18 +18,8 @@ import { INFURA_ID, DAI_ADDRESS, DAI_ABI, NETWORK, NETWORKS } from "./constants"
 import { CreateTransaction, Transactions, Owners, FrontPage } from "./views"
 
 /*
-    Welcome to 🏗 scaffold-eth !
-
-    Code:
-    https://github.com/austintgriffith/scaffold-eth
-
-    Support:
-    https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA
-    or DM @austingriffith on twitter or telegram
-
     You should get your own Infura.io ID and put it in `constants.js`
     (this is your connection to the main Ethereum network for ENS etc.)
-
 
     🌏 EXTERNAL CONTRACTS:
     You can also bring in contract artifacts in `constants.js`
@@ -97,7 +87,7 @@ function App(props) {
   // Faucet Tx can be used to send funds from the faucet
   const faucetTx = Transactor(localProvider, gasPrice)
 
-  // 🏗 scaffold-eth is full of handy hooks like this one to get your balance:
+  // enepti-contracts is full of handy hooks like this one to get your balance:
   const yourLocalBalance = useBalance(localProvider, address);
 
   // Just plug in different 🛰 providers to get your balance on different chains:
@@ -154,7 +144,7 @@ function App(props) {
   //
   useEffect(()=>{
     if(DEBUG && mainnetProvider && address && selectedChainId && yourLocalBalance && yourMainnetBalance && readContracts && writeContracts && mainnetDAIContract){
-      console.log("_____________________________________ 🏗 scaffold-eth _____________________________________")
+      console.log("_____________________________________ enepti-contracts _____________________________________")
       console.log("🌎 mainnetProvider",mainnetProvider)
       console.log("🏠 localChainId",localChainId)
       console.log("👩‍💼 selected address:",address)
